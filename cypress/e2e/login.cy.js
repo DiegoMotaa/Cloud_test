@@ -1,4 +1,4 @@
-import {email , password} from "../fixtures/user_teste.json"
+import {email , password} from "../fixtures/user_test.json"; 
 
 describe('Teste_Login', () => {
   beforeEach (() => {
