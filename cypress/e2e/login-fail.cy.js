@@ -6,7 +6,7 @@ describe('Teste_Login', () => {
     })
 
   usuarios.forEach(usuario => {
-        it ('Deve preencher os campos do usuário corretamente para cadastrar um novo usuário' , 
+        it ('Deve fazer o Login quando os dados do usuário estiverem certo e falhar quando estiver incorreto' , 
             () => {
                  cy.get('input[name="email"]').clear().type(usuario.email);
                  cy.get('input[name="password"]').clear().type(usuario.password); 

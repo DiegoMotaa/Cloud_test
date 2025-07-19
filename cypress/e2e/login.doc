@@ -1,0 +1,8 @@
+Login : Ao digitar email e senha irá efetuar um login na plataforma Cloud. 
+
+●	Todos os campos devem ser obrigatórios.
+●	Exibir um icone de confirmação nos campos em caso positivo.
+●	Redirecionar o usuario para tela de login e caso tenha mais de uma base, escolher a base correta.
+
+●	Exibir a mensagem de falha em caso de usuário incorreto. 
+●	Exibir mensagem de falha no caso de campo obrigatório incompleto.	
