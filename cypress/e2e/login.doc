@@ -1,8 +1,7 @@
-Login : Ao digitar email e senha irá efetuar um login na plataforma Cloud. 
+Login : Processo de preenchimento de credenciais para conseguir acessar a interface do usuário. 
 
 ●	Todos os campos devem ser obrigatórios.
-●	Exibir um icone de confirmação nos campos em caso positivo.
-●	Redirecionar o usuario para tela de login e caso tenha mais de uma base, escolher a base correta.
-
-●	Exibir a mensagem de falha em caso de usuário incorreto. 
-●	Exibir mensagem de falha no caso de campo obrigatório incompleto.	
+●	Exibir um icone de confirmação nos campos em caso de ser preenchido de forma correta.
+●	Redirecionar o usuario para tela de login quando o usuário ser valido ou caso tenha mais de uma base, escolher a base que     gostaria de acessar.
+●	Exibir a mensagem de falha em caso de usuário inválido. 
+●	Exibir mensagem de falha no caso de campo obrigatório estiver incompleto ou vazio.	
