@@ -9,5 +9,6 @@ describe('Teste_Login', () => {
     cy.get('input[name="email"]').type(email);
     cy.get('input[name="password"]').type(password);
     cy.contains('button','Entrar').click();
+    cy.location('pathname').should('equal' , '/dashboard')
   })
 })
