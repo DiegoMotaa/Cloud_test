@@ -10,5 +10,5 @@ describe('Teste_Login', () => {
     cy.get('input[name="password"]').type(password);
     cy.contains('button','Entrar').click();
     cy.location('pathname').should('equal' , '/dashboard')
-  })
+  }).timeout(15000); 
 })

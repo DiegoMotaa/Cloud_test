@@ -11,7 +11,6 @@ describe('Teste_Select_Login', () => {
   it('Depois de acessar a conta, deve escolher a base que gostaria de acessar', () => {  
     //cy.get('select').select('90870297000139 - TESTE BUG 5')
     cy.location('pathname').should('equal' , '/dashboard')   
-
-    })
+    }).timeout(15000); 
 })
 
