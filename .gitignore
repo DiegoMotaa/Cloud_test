@@ -2,6 +2,7 @@ node_modules
 cypress/support
 cypress.config.js
 cypress/fixtures/user_test.json
+cypress/fixtures/user_test.json
 cypress/fixtures/users_test.json
 cypress/results
 cypress/videos
